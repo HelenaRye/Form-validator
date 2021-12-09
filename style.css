@@ -57,11 +57,11 @@ input {
 }
 
 input:valid {
-  border: 1px solid #fcb69f;
+  border: 1.5px solid rgb(228, 230, 241);
 }
 
 input:invalid {
-  border: red;
+  border: 1.5px solid rgb(228, 230, 241);
 }
 
 button {
@@ -76,6 +76,7 @@ button {
   border: none;
   color: #fff;
   margin-top: 24px;
+  font-family: Inter, sans-serif;
 }
 
 h1 {
@@ -83,9 +84,19 @@ h1 {
   padding-bottom: 15px;
 }
 
+.message-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 h3 {
-  font-size: 16px;
-  color: rgb(107, 113, 148);
-  font-weight: 300;
-  padding-top: 10px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+button:hover {
+  cursor: pointer;
 }
